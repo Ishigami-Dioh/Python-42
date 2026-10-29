@@ -2,6 +2,7 @@
 
 import sys
 
+
 def main():
     print("=== Command Quest ===")
     print(f"Program name: {sys.argv[0]}")
