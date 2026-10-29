@@ -95,7 +95,7 @@ class Tree(Plant):
             super().display()
             print(f"{self._shade_count} shade")
 
-    _stats: TreeStats 
+    _stats: TreeStats
 
     def __init__(self, name: str, height: float, age: int,
                  trunk_diameter: float) -> None:
