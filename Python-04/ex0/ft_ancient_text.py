@@ -4,7 +4,7 @@ import sys
 import typing
 
 
-def main():
+def main() -> None:
     if len(sys.argv) < 2:
         print(f"Usage: {sys.argv[0]} <file>")
         return
